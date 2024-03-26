@@ -54,8 +54,21 @@ int main(){
         inputData();
         cout << "Hasil Pembagian = " << pembagian(bilangan1, bilangan2) << endl;
         break;
+  case 5:
+        break;
 
+    default:
+        cout << "Pilihan tidak ada" << endl;
+        break;
+
+        system("pause");
+        system("CLS");
+    }
+
+    while (pilihan !=5);
+  
+    }
+}
  
 
 
-}
