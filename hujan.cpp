@@ -50,6 +50,11 @@ int main(){
         inputData();
         cout << "Hasil pekalian  = " << perkalian(bilangan1, bilangan2) << endl;
         break;
+   case 4:
+        inputData();
+        cout << "Hasil Pembagian = " << pembagian(bilangan1, bilangan2) << endl;
+        break;
+
  
 
 
